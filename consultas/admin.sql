@@ -1,0 +1,10 @@
+CREATE TABLE Administrador
+(
+    Id INT PRIMARY KEY IDENTITY(1,1),
+    Nombre VARCHAR(200) NOT NULL,
+    NumeroTelefono VARCHAR(40) NOT NULL,
+    CorreoE VARCHAR(50) NOT NULL,
+    Contra VARCHAR(50) NOT NULL,
+    TipoAdmin VARCHAR(30) NOT NULL,
+    FechaRegistro DATETIME NOT NULL DEFAULT GETDATE()
+)

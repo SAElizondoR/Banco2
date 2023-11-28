@@ -1,0 +1,5 @@
+{
+    "appService.preDeployTask": "publish-release",
+    "appService.deploySubpath": "bin/Release/net7.0/publish",
+    "appService.defaultWebAppToDeploy": "/subscriptions/0404bf27-8fdc-450d-8f2d-4aca5916addc/resourceGroups/apbanco/providers/Microsoft.Web/sites/apbanco-chek"
+}
